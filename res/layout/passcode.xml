@@ -1,0 +1,236 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_focus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_vertical"
+    tools:context=".PasscodeActivity" >
+
+    <TextView
+        android:id="@+id/page_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:padding="10dp"
+        android:shadowColor="#B9BBC4"
+        android:shadowDx="2"
+        android:shadowDy="1"
+        android:shadowRadius="20"
+        android:text="Enter your Passcode:"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <GridLayout
+        android:id="@+id/grid_layer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/page_title"
+        android:layout_marginTop="-15dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:useDefaultMargins="false" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/psc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="@drawable/dot_white" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/psc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="23dp"
+                android:background="@drawable/dot_white" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/psc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="23dp"
+                android:background="@drawable/dot_white" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/psc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="23dp"
+                android:background="@drawable/dot_white" >
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/psc1"
+                style="@style/passcode_edittext" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/psc2"
+                style="@style/passcode_edittext" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/psc3"
+                style="@style/passcode_edittext" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/psc4"
+                style="@style/passcode_edittext" >
+            </TextView>
+        </LinearLayout>
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/msg_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grid_layer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-30dp"
+        android:padding="10dp"
+        android:shadowColor="#181818"
+        android:shadowDx="2"
+        android:shadowDy="1"
+        android:shadowRadius="24"
+        android:text="1 attempts failed"
+        android:textColor="#C52C28"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:useDefaultMargins="false" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/psc_1"
+                style="@style/passcode_btn"
+                android:tag="1"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/psc_2"
+                style="@style/passcode_btn"
+                android:tag="2"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/psc_3"
+                style="@style/passcode_btn"
+                android:tag="3"
+                android:text="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/psc_4"
+                style="@style/passcode_btn"
+                android:tag="4"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/psc_5"
+                style="@style/passcode_btn"
+                android:tag="5"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/psc_6"
+                style="@style/passcode_btn"
+                android:tag="6"
+                android:text="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/psc_7"
+                style="@style/passcode_btn"
+                android:tag="7"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/psc_8"
+                style="@style/passcode_btn"
+                android:tag="8"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/psc_9"
+                style="@style/passcode_btn"
+                android:tag="9"
+                android:text="9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/psc_d"
+                style="@style/passcode_func_btn"
+                android:tag="delete"
+                android:text="@string/delete" />
+
+            <Button
+                android:id="@+id/psc_0"
+                style="@style/passcode_btn"
+                android:tag="0"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/psc_n"
+                style="@style/passcode_func_btn"
+                android:tag="next"
+                android:text=">" />
+        </LinearLayout>
+    </GridLayout>
+
+</RelativeLayout>

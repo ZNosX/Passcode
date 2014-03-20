@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Passcode</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="delete">\u003C</string>
+    
+    <color name="released_button_background_g1">#65CADAFF</color>
+    <color name="released_button_background_g2">#35F8FBFF</color>
+    <color name="pressed_button_background">#95FDFFF6</color>
+    <color name="func_button_background_g1">#90514E51</color>
+    <color name="func_button_background_g2">#10131213</color>
+    <color name="white">#ffffff</color>
+    
+    <color name="dark_blue">#274D61</color>
+    <color name="off_white">#FAFAFA</color>
+    <color name="signup">#363636</color>
+    <color name="light_blue">#3C8CBF</color>
+    <color name="eye_friendly">#EDEAEA</color>
+    
+    
+    <color name="positive_button">#326155</color>
+
+</resources>

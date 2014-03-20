@@ -1,0 +1,21 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <gradient
+        android:angle="270"
+        android:endColor="@color/func_button_background_g1"
+        android:startColor="@color/func_button_background_g2" />
+
+    <stroke
+        android:width="1.5dp"
+        android:color="#beA999DE" />
+
+    <padding
+        android:bottom="27dp"
+        android:left="0dp"
+        android:right="0dp"
+        android:top="27dp" />
+
+    <corners android:radius="120dp" />
+
+</shape>

@@ -1,0 +1,488 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/eye_friendly" >
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/dark_blue"
+        android:gravity="center"
+        android:shadowColor="#313033"
+        android:shadowDx="1"
+        android:shadowDy="3"
+        android:shadowRadius="20"
+        android:text="Sign Up"
+        android:textColor="@color/off_white"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/banner"
+        android:layout_marginBottom="44dp"
+        tools:context=".RegisterActivity" >
+
+        <LinearLayout
+            android:id="@+id/register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="27dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:shadowColor="#313033"
+                android:shadowDx="1"
+                android:shadowDy="3"
+                android:shadowRadius="20"
+                android:text="Enter Your Information"
+                android:textColor="@color/signup"
+                android:textSize="16.5sp"
+                android:textStyle="normal" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/reg_loadAmount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="Card Number"
+                        android:inputType="numberDecimal" >
+                    </EditText>
+                </TableRow>
+
+                <TextView
+                    android:id="@+id/blah"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:gravity="center"
+                    android:text="You need a TruCa$h card to register "
+                    android:textColor="@color/signup"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/reg_country"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="First name"
+                        android:inputType="text" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/reg_secQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="-1.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="Last name"
+                        android:inputType="text" >
+                    </EditText>
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:gravity="center"
+                    android:text="Your name will help us serve you better"
+                    android:textColor="@color/signup"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/reg_country"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="Country"
+                        android:inputType="text" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/reg_secQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="-1.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="State / Province"
+                        android:inputType="text" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="13dp" >
+
+                    <EditText
+                        android:id="@+id/reg_secQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="-1.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="City"
+                        android:inputType="text" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/reg_secQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="Postal Code"
+                        android:inputType="text" >
+                    </EditText>
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:gravity="center"
+                    android:text="Your address will be using for billing and security check"
+                    android:textColor="@color/signup"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/reg_dob"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="Date of Birth"
+                        android:inputType="numberDecimal" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/reg_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="-1.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="Phone"
+                        android:inputType="numberDecimal" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:gravity="center"
+                    android:text="Your personal information may be needed for costumer service."
+                    android:textColor="@color/signup"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/reg_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="email@example.com"
+                        android:inputType="textEmailAddress" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:gravity="center"
+                    android:text="This will be your username."
+                    android:textColor="@color/signup"
+                    android:textSize="12dp"
+                    android:textStyle="normal" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/reg_pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="Password"
+                        android:inputType="textPassword" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/reg_secAnswer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="-1.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="Confirm password"
+                        android:inputType="textPassword" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:gravity="center"
+                    android:text="At least 6 characters with an uppercase letter, a lowercase letter and a number"
+                    android:textColor="@color/signup"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/reg_secQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="Security Question"
+                        android:inputType="text" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/reg_secAnswer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="-1.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="Security Answer"
+                        android:inputType="textPassword" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:gravity="center"
+                    android:text="Security question will help you protect your information safety"
+                    android:textColor="@color/signup"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/reg_paymentNO"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_border"
+                        android:hint="Social insurance #"
+                        android:inputType="numberDecimal" />
+                </TableRow>
+
+                <TextView
+                    android:id="@+id/blah"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:gravity="center"
+                    android:text="Please enter provide a valid ID"
+                    android:textColor="@color/signup"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp" >
+
+                    <Button
+                        android:id="@+id/signin_cancel"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="#D3CEB3"
+                        android:text="Cancel"
+                        android:textColor="@color/positive_button" />
+
+                    <Button
+                        android:id="@+id/signin_signin"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/light_blue"
+                        android:text="Continue"
+                        android:textColor="@color/off_white" />
+                </TableRow>
+
+                <!-- Link to Login Screen -->
+
+                <TextView
+                    android:id="@+id/reg_toLogin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dip"
+                    android:layout_marginTop="40dip"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="Already has account! Login here"
+                    android:onClick="toLoginPage"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="13.5sp" />
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/banner_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/banner"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/drop_shadow" />
+
+    <View
+        android:id="@+id/scroll_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="43dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/scroll_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:gravity="center"
+        android:text="Scroll Down to finish registeration"
+        android:textColor="@color/dark_blue"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#545D8B" >
+
+    <TableLayout
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="45dp" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:text="Card #"
+                android:textColor="#fafafa"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/try1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@drawable/top_edittext"
+                android:drawablePadding="15dp"
+                android:hint="Last 8 digits of the card"
+                android:inputType="numberSigned"
+                android:maxLength="8"
+                android:textSize="15sp" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:text="CVV"
+                android:textColor="#fafafa"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/try2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@drawable/edittext_border"
+                android:drawablePadding="15dp"
+                android:hint="CVV"
+                android:inputType="numberSigned"
+                android:maxLength="8"
+                android:textSize="15sp" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:text="Password"
+                android:textColor="#fafafa"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/try3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@drawable/bottom_edittext"
+                android:drawablePadding="15dp"
+                android:hint="Password"
+                android:inputType="numberSigned"
+                android:maxLength="8"
+                android:textSize="15sp" >
+            </EditText>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/login_field"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_below="@+id/login"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="45dp" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/top_edittext"
+            android:drawableLeft="@drawable/card_number"
+            android:drawablePadding="15dp"
+            android:hint="Last 8 digits of the card"
+            android:inputType="numberSigned"
+            android:maxLength="8" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_border"
+            android:drawableLeft="@drawable/card_cvv"
+            android:drawablePadding="15dp"
+            android:hint="CVV"
+            android:inputType="numberSigned"
+            android:maxLength="3" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_edittext"
+            android:drawableLeft="@drawable/login_psw"
+            android:drawablePadding="15dp"
+            android:hint="Password"
+            android:inputType="numberSigned" >
+        </EditText>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_field"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="25dp"
+        android:background="#D36F54"
+        android:text="Sign In"
+        android:textColor="#fafafa"
+        android:textStyle="bold" />
+
+</RelativeLayout>
