@@ -48,18 +48,19 @@ public final class R {
         public static final int button_shape_released=0x7f020004;
         public static final int card_cvv=0x7f020005;
         public static final int card_number=0x7f020006;
-        public static final int dot_dark=0x7f020007;
-        public static final int dot_white=0x7f020008;
-        public static final int drop_shadow=0x7f020009;
-        public static final int edittext_border=0x7f02000a;
+        public static final int center_edittext=0x7f020007;
+        public static final int dot_dark=0x7f020008;
+        public static final int dot_white=0x7f020009;
+        public static final int drop_shadow=0x7f02000a;
         public static final int func_btn_selecter=0x7f02000b;
         public static final int func_btn_shape_released=0x7f02000c;
         public static final int ic_launcher=0x7f02000d;
         public static final int login_psw=0x7f02000e;
-        public static final int passcode_edittext_box=0x7f02000f;
-        public static final int passcode_edittext_box_s=0x7f020010;
-        public static final int psc_edittext_selector=0x7f020011;
-        public static final int top_edittext=0x7f020012;
+        public static final int one_edittext=0x7f02000f;
+        public static final int passcode_edittext_box=0x7f020010;
+        public static final int passcode_edittext_box_s=0x7f020011;
+        public static final int psc_edittext_selector=0x7f020012;
+        public static final int top_edittext=0x7f020013;
     }
     public static final class id {
         public static final int action_settings=0x7f0a002f;

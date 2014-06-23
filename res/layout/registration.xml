@@ -67,7 +67,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="Card Number"
                         android:inputType="numberDecimal" >
                     </EditText>
@@ -97,7 +97,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="First name"
                         android:inputType="text" >
                     </EditText>
@@ -115,7 +115,7 @@
                         android:layout_marginRight="8dp"
                         android:layout_marginTop="-1.5dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="Last name"
                         android:inputType="text" >
                     </EditText>
@@ -144,7 +144,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="Country"
                         android:inputType="text" >
                     </EditText>
@@ -162,7 +162,7 @@
                         android:layout_marginRight="8dp"
                         android:layout_marginTop="-1.5dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="State / Province"
                         android:inputType="text" >
                     </EditText>
@@ -181,7 +181,7 @@
                         android:layout_marginRight="8dp"
                         android:layout_marginTop="-1.5dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="City"
                         android:inputType="text" >
                     </EditText>
@@ -198,7 +198,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="Postal Code"
                         android:inputType="text" >
                     </EditText>
@@ -227,7 +227,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="Date of Birth"
                         android:inputType="numberDecimal" />
                 </TableRow>
@@ -244,7 +244,7 @@
                         android:layout_marginRight="8dp"
                         android:layout_marginTop="-1.5dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="Phone"
                         android:inputType="numberDecimal" />
                 </TableRow>
@@ -272,7 +272,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="email@example.com"
                         android:inputType="textEmailAddress" />
                 </TableRow>
@@ -300,7 +300,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="Password"
                         android:inputType="textPassword" />
                 </TableRow>
@@ -317,7 +317,7 @@
                         android:layout_marginRight="8dp"
                         android:layout_marginTop="-1.5dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="Confirm password"
                         android:inputType="textPassword" />
                 </TableRow>
@@ -345,7 +345,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="Security Question"
                         android:inputType="text" >
                     </EditText>
@@ -363,7 +363,7 @@
                         android:layout_marginRight="8dp"
                         android:layout_marginTop="-1.5dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="Security Answer"
                         android:inputType="textPassword" />
                 </TableRow>
@@ -391,7 +391,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_weight="1"
-                        android:background="@drawable/edittext_border"
+                        android:background="@drawable/center_edittext"
                         android:hint="Social insurance #"
                         android:inputType="numberDecimal" />
                 </TableRow>
